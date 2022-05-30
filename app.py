@@ -47,7 +47,7 @@ def authenticate(password) ->bool:
     return password == root_password
 
 
-password = st.text_input('snuestate2022', type="password")
+password = st.text_input('passwd!@#', type="password")
 
 if authenticate(password):
     st.success('You are authenticated!')
